@@ -1,9 +1,12 @@
 {
   "name": "kaizen-sdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "new sdk for kaizen",
   "main": "index.js",
-  "repository": "https://github.com/Otium-Kaizen/kaizen-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otium-Kaizen/kaizen-sdk.git"
+  },
   "author": "SatoshiLove <40462191+satoshilove@users.noreply.github.com>",
   "license": "MIT",
   "files": [
@@ -51,6 +54,12 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Otium-Kaizen/kaizen-sdk/issues"
+  },
+  "homepage": "https://github.com/Otium-Kaizen/kaizen-sdk#readme",
+  "keywords": [
+    "kaizen"
+  ]
 }
-
