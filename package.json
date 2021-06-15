@@ -1,6 +1,6 @@
 {
   "name": "kaizen-sdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "new sdk for kaizen",
   "main": "index.js",
   "repository": {
