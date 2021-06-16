@@ -1,16 +1,21 @@
 {
-  "name": "kaizen-sdk",
-  "version": "1.0.6",
-  "description": "new sdk for kaizen",
-  "main": "index.js",
+  "name": "@otium-kaizen/sdk",
+  "license": "MIT",
+  "version": "1.0.7",
+  "description": "🛠 An SDK for building applications on top of Kaizen.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Otium-Kaizen/kaizen-sdk.git"
   },
-  "author": "SatoshiLove <40462191+satoshilove@users.noreply.github.com>",
-  "license": "MIT",
-  "files": [
-    "dist"
+  "keywords": [
+    "uniswap",
+    "sushiswap",
+    "ethereum"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -56,10 +61,11 @@
     "singleQuote": true
   },
   "bugs": {
-    "url": "https://github.com/Otium-Kaizen/kaizen-sdk/issues"
+    "url": "https://github.com/sushiswap/sushiswap-sdk/issues"
   },
-  "homepage": "https://github.com/Otium-Kaizen/kaizen-sdk#readme",
-  "keywords": [
-    "kaizen"
-  ]
+  "homepage": "https://github.com/sushiswap/sushiswap-sdk#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": "kaizen"
 }
